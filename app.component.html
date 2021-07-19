@@ -1,0 +1,153 @@
+<!-- <form nz-form [formGroup]="validateForm" class="login-form" (ngSubmit)="submitForm()">
+  <div class="container">
+    <DIv><nz-header>HELLO YOU ARE WELCOME!</nz-header>
+      <dive class="formwraper">
+        <div class="formDiv">
+          <h2>SIGN IN</h2>            
+          <nz-form-item>
+            <nz-form-control nzErrorTip="Please input your username!">
+              <nz-input-group nzPrefixIcon="user">
+               <input type="text" nz-input formControlName="userName" placeholder="Username"/>
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+          <nz-form-item>
+            <nz-form-control nzErrorTip="Please input your Password!">
+              <nz-input-group nzPrefixIcon="lock">
+                <input type="password" nz-input formControlName="password" placeholder="Password"/>
+              </nz-input-group>
+            </nz-form-control>
+          </nz-form-item>
+          <div nz-row class="login-form-margin">
+            <div nz-col [nzSpan]="12">
+              <label nz-checkbox formControlName="remember">
+                <span>Remember me</span>
+              </label>
+            </div>
+            <div nz-col [nzSpan]="12">
+              <a class="login-form-forgot">Forgot password</a>
+            </div>
+          </div>
+          <button nz-button class="login-form-button login-form-margin" [nzType]="'primary'">Log in</button>
+          Or 
+          <a> register now!</a>
+        </div>
+      </dive>
+    </DIv>
+  </div>
+</form  -->
+
+<body>
+    <div class="fond">
+        <div class="container">
+            <div class="formdiv">
+
+                <img nz-image width="270px" height="90px" nzSrc="assets/IMAGES/image2.png" alt="solegoo" />
+                <!-- <button nz-button nzType="primary">
+            <i class="icon" nz-icon nzType="youtube" nzTheme="outline"></i>
+            <i class="icon1" nz-icon nzType="facebook" nzTheme="outline"></i>
+            <i class="icon2" nz-icon nzType="twitter" nzTheme="outline"></i>
+            <i class="icon3" nz-icon nzType="instagram" nzTheme="outline"></i>
+          </button> > -->
+
+                <h1><strong>SMART DRIVING</strong> </h1>
+                <!-- <img nz-image width="150px" height="200px" nzSrc="assets/IMAGES/elegoo2.jpg" alt="solegoo" /><img nz-image width="150px" height="180px" nzSrc="assets/IMAGES/elegoo3.jpg" alt="solegoo" /> -->
+                <nz-avatar [nzSize]="64" nzIcon="user"></nz-avatar>
+                <div class="formdive">
+                    <div class="formDiv">
+                        <form nz-form [formGroup]="validateForm" class="login-form" (ngSubmit)="submitForm()">
+                            <nz-form-item>
+                                <nz-form-control nzErrorTip="Please input your email!">
+                                    <nz-input-group nzPrefixIcon="mail">
+                                        <!-- <i nz-icon nzType="mail" nzTheme="outline"></i> -->
+                                        <input type="email" nz-input formControlName="email" placeholder="Email" />
+                                    </nz-input-group>
+                                </nz-form-control>
+                            </nz-form-item>
+                            <nz-form-item>
+                                <nz-form-control nzErrorTip="Please input your Password!">
+                                    <nz-input-group nzPrefixIcon="lock">
+                                        <input type="password" nz-input formControlName="password" placeholder="Password" />
+                                    </nz-input-group>
+                                </nz-form-control>
+                            </nz-form-item>
+                            <div nz-row class="login-form-margin">
+                                <div nz-col [nzSpan]="12">
+                                    <label nz-checkbox formControlName="remember">
+                    <span>Remember me</span>
+                  </label>
+                                </div>
+                                <div nz-col [nzSpan]="12">
+                                    <a class="login-form-forgot" href="https://www.google.com/search?q=forgot+password&rlz=1C1AVFA_enCM958CM958&oq=fogot+pass&aqs=chrome.1.69i57j0i13l9.10830j0j7&sourceid=chrome&ie=UTF-8">Forgot password</a>
+                                </div>
+                            </div>
+                            <!-- <button nz-button class="login-form-button login-form-margin" [nzType]="'primary'">
+                LOG IN
+              </button> Or <a> register now! </a> -->
+                            <button class="open" nz-button nzType="primary" href="https://www.youtube.com/channel/UCOf6PHe4lyEH1PxwHeTiGPQ/discussion">SIGN IN</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- <i nz-icon nzType="youtube" nzTheme="outline"></i>
+                    <i nz-icon nzType="facebook" nzTheme="outline"></i>
+                    <i nz-icon nzType="twitter" nzTheme="outline"></i>
+                    <i nz-icon nzType="instagram" nzTheme="outline"></i> -->
+                <button nz-button nzType="primary">
+          <i class="icon" nz-icon nzType="youtube" nzTheme="outline"></i>
+          <i class="icon1" nz-icon nzType="facebook" nzTheme="outline"></i>
+          <i class="icon2" nz-icon nzType="twitter" nzTheme="outline"></i>
+          <i class="icon3" nz-icon nzType="instagram" nzTheme="outline"></i>
+        </button> >
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <div class="fond">
+    <div class="container">
+        <div>
+            <nz-header>
+                <img nz-image width="260px" height="60px" nzSrc="assets/IMAGES/image2.png" alt="solegoo" /></nz-header>
+            <h1>SMART DRIVING</h1>
+            <!-- <img nz-image width="150px" height="200px" nzSrc="assets/IMAGES/elegoo2.jpg" alt="solegoo" /><img nz-image width="150px" height="180px" nzSrc="assets/IMAGES/elegoo3.jpg" alt="solegoo" /> -->
+<!-- <nz-avatar [nzSize]="64" nzIcon="user"></nz-avatar>
+            <div class="formdive">
+                <div class="formDiv">
+                    <form nz-form [formGroup]="validateForm" class="login-form" (ngSubmit)="submitForm()">
+                        <nz-form-item>
+                            <nz-form-control nzErrorTip="Please input your username!">
+                                <nz-input-group nzPrefixIcon="user">
+                                    <input type="text" nz-input formControlName="userName" placeholder="Username" size="100" />
+                                </nz-input-group>
+                            </nz-form-control>
+                        </nz-form-item>
+                        <nz-form-item>
+                            <nz-form-control nzErrorTip="Please input your Password!">
+                                <nz-input-group nzPrefixIcon="lock">
+                                    <input type="password" nz-input formControlName="password" placeholder="Password" size="100" />
+                                </nz-input-group>
+                            </nz-form-control>
+                        </nz-form-item>
+                        <div nz-row class="login-form-margin">
+                            <div nz-col [nzSpan]="12">
+                                <label nz-checkbox formControlName="remember">
+                  <span>Remember me</span>
+                </label>
+                            </div>
+                            <div nz-col [nzSpan]="12">
+                                <a class="login-form-forgot">Forgot password</a>
+                            </div>
+                        </div>
+                        <button nz-button class="login-form-button login-form-margin" [nzType]="'primary'">
+              LOG IN
+            </button> Or <a> register now! </a>
+                    </form>
+                </div>
+            </div>
+            >
+            <nz-header>
+                <img nz-image width="260px" height="50px" nzSrc="assets/IMAGES/image2.png" alt="solegoo" /></nz-header>
+        </div>
+    </div>
+</div> -->
+-->
